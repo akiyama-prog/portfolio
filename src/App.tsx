@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1>AKINA YAMADA</h1>
-      <p>PORTFOLIO</p>
-    </div>
+    <div className="eyecache">
+      <h1>AKINA YAMADA<br></br><span className="subtitle">PORTFOLIO</span></h1>
+    </div >
   );
 }
 
