@@ -4,10 +4,39 @@
     font-size: 5em;
     line-height: 4rem;
     letter-spacing: .1em;
-    margin-top: 3em;
+    margin-top: 2.5em;
   }
   .subtitle{
     font-size: 2rem;
     font-weight: 500;
+  }
+  ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    a{
+      color: black;
+      text-decoration: none;
+      position: relative;
+      display: block;
+      &::after{
+        content: '';
+        width: 0;
+        transition: all 0.3s ease;
+        border-bottom: 4px solid #000;
+        display: block;
+        margin-top: .5rem;
+      }
+      &:hover{
+        &::after{
+          width: 100%;
+	        border-bottom: 4px solid #000;
+        }
+      }
+    }
   }
 }
