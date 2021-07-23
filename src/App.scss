@@ -1,11 +1,15 @@
+h1{
+  font-size: 5em;
+  line-height: 4rem;
+  letter-spacing: .1em;
+}
+h2{
+  font-size: 3em;
+  letter-spacing: .1em;
+}
 .eyecache {
   text-align: center;
-  h1{
-    font-size: 5em;
-    line-height: 4rem;
-    letter-spacing: .1em;
-    margin-top: 2.5em;
-  }
+  padding: 8em 0;
   .subtitle{
     font-size: 2rem;
     font-weight: 500;
@@ -37,6 +41,33 @@
 	        border-bottom: 4px solid #000;
         }
       }
+    }
+  }
+}
+
+// works
+#works{
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 2em 0;
+  .my-works{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    .work-img{
+      padding-bottom: 2em;
+    }
+    img{
+      width: 400px;
+      height: 300px;
+    }
+    .title{
+      font-weight: bold;
+    }
+    .skill-explaine{
+      font-weight: 400;
     }
   }
 }
