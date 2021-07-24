@@ -82,13 +82,25 @@ h2{
     flex-wrap: wrap;
     width: 50%;
     margin: 0 auto;
+    .back{
+      .item{
+        padding-top: 2em;
+      }
+    }
+    .front{
+      .item{
+        padding-bottom: 2em;
+      }
+      .html{
+        padding-bottom: 0;
+      }
+    }
     .item{
       display: flex;
       .skill-title{
         font-weight: bold;
         letter-spacing: .1em;
         padding-top: .5em;
-        margin-bottom: 2em;
       }
       .html{
         padding-top: 2.5em;
