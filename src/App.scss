@@ -60,12 +60,14 @@ h2{
     flex-wrap: wrap;
     margin: 0 auto;
     width: 90%;
-    .work-img{
-      padding-bottom: 2em;
-    }
     img{
       width: 400px;
       height: 300px;
+      padding-bottom: 2em;
+      transition: .3s;
+      &:hover{
+        transform: scale(1.05);
+      }
     }
     .title{
       font-weight: bold;
