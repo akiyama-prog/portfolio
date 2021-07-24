@@ -9,7 +9,7 @@ function App() {
         <li><a href="#works">WORKS</a></li>
         <li><a href="#skill">SKILLS</a></li>
         <li><a href="#about">ABOUT</a></li>
-        <li><a href="">CONTACT</a></li>
+        <li><a href="contact">CONTACT</a></li>
       </ul>
     </div >
   );
