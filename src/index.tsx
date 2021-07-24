@@ -6,6 +6,7 @@ import Works from './Works';
 import Skill from './Skill';
 import About from './About';
 import Contact from './Contact';
+import Footer from './Footer';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
     <Skill />
     <About />
     <Contact />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
