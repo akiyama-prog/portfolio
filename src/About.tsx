@@ -9,7 +9,7 @@ function About() {
             <div className="profile">
                 <img src={profile} alt="profile image" />
                 <div>
-                    <p className="about-me">I work at real estate company at Tokyo as a software engineer from 2019. Support our employees about several system. I have worked extensively from front-end to back-end, database design, case definition, and so on.</p>
+                    <p className="about-me">I work at real estate company in Tokyo as a software engineer from 2019. Support our employees about several system. I have worked extensively from front-end to back-end, database design, case definition, and so on.</p>
                     <div className="sns">
                         <p className="textlink"><a href="https://aklog.net/" target="_blank">Blog</a></p>
                         <p className="textlink"><a href="https://note.com/akina7" target="_blank">note</a></p>
