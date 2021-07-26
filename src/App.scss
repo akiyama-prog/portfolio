@@ -5,19 +5,22 @@ body{
 html{
   scroll-behavior: smooth;
 }
-h1{
+h1,h2{
   letter-spacing: .5rem;
-  @media screen and (min-width:769px){//PC
+}
+@media screen and (min-width:769px){//PC
+  h1{
     font-size: 5rem;
     line-height: 4rem;
   }
-  @media screen and (max-width:768px){//SP
-    font-size: 2rem;
+  h2{
+    font-size: 3rem;
   }
 }
-h2{
-  font-size: 3rem;
-  letter-spacing: .5rem;
+@media screen and (max-width:768px){//SP
+  h1,h2{
+    font-size: 2rem;
+  }
 }
 .eyecache {
   @media screen and (min-width:769px){//PC
