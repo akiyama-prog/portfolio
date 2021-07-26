@@ -215,6 +215,11 @@ h1,h2{
   p{
     font-size: 1.5em;
     letter-spacing: .1em;
+    @media screen and (max-width:768px){//SP
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 1rem;
+    }
   }
 }
 
