@@ -157,14 +157,15 @@ h1,h2{
   padding: 2em 0;
   .profile{
     margin: 0 auto;
-    width: 50%;
     letter-spacing: .1em;
     @media screen and (min-width:769px){//PC
       display: flex;
       justify-content: space-between;
+      width: 50%;
     }
     @media screen and (max-width:768px){//SP
       flex-wrap: wrap;
+      width: 90%;
     }
     img{
       width: 200px;
