@@ -87,12 +87,18 @@ h1,h2{
     margin: 0 auto;
     width: 90%;
     img{
-      width: 400px;
-      height: 300px;
       padding-top: 2rem;
       transition: .3s;
       &:hover{
         transform: scale(1.05);
+      }
+      @media screen and (min-width:769px){//PC
+          width: 400px;
+          height: 300px;
+      }
+      @media screen and (max-width:768px){//SP
+          width: 90%;
+          height: auto;
       }
     }
     .title{
@@ -103,6 +109,7 @@ h1,h2{
     }
   }
 }
+
 
 //skill
 #skill{
