@@ -3,6 +3,7 @@ import './App.scss';
 import tokyoshare from './images/tokyoshare.png';
 import dental from './images/minami-dental.png';
 import portfolio from './images/portfolio.png';
+import calc from './images/unit_price_calc.png';
 
 function Works() {
     return (
@@ -18,7 +19,7 @@ function Works() {
                     <p className="title">Dental Office web site<br /><span className="skill-explaine">Next.js / SCSS / StaticForm / Docker</span></p>
                 </div>
                 <div className="work-img">
-                    <a href="" target="_blank"><img src={tokyoshare} alt="tokyosyare" /></a>
+                    <a href="https://unit-price-calculator.netlify.app/" target="_blank"><img src={calc} alt="unit price calculator" /></a>
                     <p className="title">Unit price calculator<br /><span className="skill-explaine">Vue.js / SCSS</span></p>
                 </div>
                 <div className="work-img">
