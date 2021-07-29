@@ -2,7 +2,7 @@ import React from 'react';
 import './App.scss';
 import tokyoshare from './images/tokyoshare.png';
 import dental from './images/minami-dental.png';
-import portfolio from './images/portfolio.png';
+import portfolio from './images/ak_portfolio.png';
 import calc from './images/unit_price_calc.png';
 
 function Works() {
