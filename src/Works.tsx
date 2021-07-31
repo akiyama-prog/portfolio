@@ -11,12 +11,12 @@ function Works() {
             <h2>WORKS</h2>
             <div className="my-works">
                 <div className="work-img">
-                    <a href="https://tokyo-share.herokuapp.com/" target="_blank"><img src={tokyoshare} alt="tokyoshare" /></a>
-                    <p className="title">Share house seach service in Tokyo<br /><span className="skill-explaine">HTML / SCSS / PHP / Laravel / PostgreSQL / Docker</span></p>
+                    <a href="https://minami-dental-office.vercel.app/" target="_blank"><img src={dental} alt="dentalsite" /></a>
+                    <p className="title">Dental Office web site<br /><span className="skill-explaine">Next.js / SCSS / StaticForm / Docker</span></p>
                 </div>
                 <div className="work-img">
-                    <a href="https://minami-dental-office.herokuapp.com/" target="_blank"><img src={dental} alt="dentalsite" /></a>
-                    <p className="title">Dental Office web site<br /><span className="skill-explaine">Next.js / SCSS / StaticForm / Docker</span></p>
+                    <a href="https://tokyo-share.herokuapp.com/" target="_blank"><img src={tokyoshare} alt="tokyoshare" /></a>
+                    <p className="title">Share house seach service in Tokyo<br /><span className="skill-explaine">HTML / SCSS / PHP / Laravel / PostgreSQL / Docker</span></p>
                 </div>
                 <div className="work-img">
                     <a href="https://unit-price-calculator.netlify.app/" target="_blank"><img src={calc} alt="unit price calculator" /></a>
