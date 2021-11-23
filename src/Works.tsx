@@ -1,5 +1,10 @@
 import React from 'react';
 import './App.scss';
+import { render } from "react-dom";
+import {
+    BrowserRouter,
+    Route
+} from "react-router-dom";
 import tokyoshare from './images/tokyoshare.png';
 import dental from './images/minami-dental.png';
 import portfolio from './images/ak_portfolio.png';
