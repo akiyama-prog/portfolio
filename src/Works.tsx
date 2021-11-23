@@ -4,6 +4,8 @@ import tokyoshare from './images/tokyoshare.png';
 import dental from './images/minami-dental.png';
 import portfolio from './images/ak_portfolio.png';
 import calc from './images/unit_price_calc.png';
+import isara from './images/isara.png';
+import isara_png from './images/isara_practice.png';
 
 function Works() {
     return (
@@ -21,6 +23,10 @@ function Works() {
                 <div className="work-img">
                     <a href="https://unit-price-calculator.netlify.app/" target="_blank"><img src={calc} alt="unit price calculator" /></a>
                     <p className="title">Unit price calculator<br /><span className="skill-explaine">Vue.js / SCSS</span></p>
+                </div>
+                <div className="work-img">
+                    <a href={isara_png} target="_blank"><img src={isara} alt="isaraサイト模写" /></a>
+                    <p className="title">iSara LP practice(<a href="https://isara.life/" target="_blank">original web site</a>)<br /><span className="skill-explaine">HTML / SCSS</span></p>
                 </div>
                 <div className="work-img">
                     <a href=""><img src={portfolio} alt="tokyosyare" /></a>
