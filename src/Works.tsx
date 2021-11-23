@@ -6,6 +6,7 @@ import portfolio from './images/ak_portfolio.png';
 import calc from './images/unit_price_calc.png';
 import isara from './images/isara.png';
 import isara_png from './images/isara_practice.png';
+import aklog from './images/aklog.net.png';
 
 function Works() {
     return (
@@ -27,6 +28,10 @@ function Works() {
                 <div className="work-img">
                     <a href={isara_png} target="_blank"><img src={isara} alt="isaraサイト模写" /></a>
                     <p className="title">iSara LP practice(<a href="https://isara.life/" target="_blank">original web site</a>)<br /><span className="skill-explaine">HTML / SCSS</span></p>
+                </div>
+                <div className="work-img">
+                    <a href="https://aklog.net/" target="_blank"><img src={aklog} alt="blog" /></a>
+                    <p className="title">My blog<br /><span className="skill-explaine">PHP / WordPress</span></p>
                 </div>
                 <div className="work-img">
                     <a href=""><img src={portfolio} alt="tokyosyare" /></a>
