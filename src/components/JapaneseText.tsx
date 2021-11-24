@@ -27,3 +27,7 @@ export const JpBlogDescribe = () => {
 export const JpPortfolioDescribe = () => {
     return <>ポートフォリオ</>;
 };
+
+export const JpAboutMe = () => {
+    return <>前職の歯科衛生士から転職をし、2019年から不動産会社のシステム開発部にて働いています。主に幅広く社内のシステムを作っています。フロントからバックエンドまで実装します。データベースの構築や用件定義も行います。</>;
+};

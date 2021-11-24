@@ -20,6 +20,7 @@ function About() {
                         <BrowserRouter>
                             <Routes>
                                 <Route path="en" element={<EnText.EnAboutMe />} />
+                                <Route path="jp" element={<JpText.JpAboutMe />} />
                             </Routes>
                         </BrowserRouter>
                     </p>
