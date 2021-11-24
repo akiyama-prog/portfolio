@@ -6,6 +6,7 @@ import {
     Routes,
     Route
 } from "react-router-dom";
+import * as EnText from './components/EnglishText';
 import tokyoshare from './images/tokyoshare.png';
 import dental from './images/minami-dental.png';
 import portfolio from './images/ak_portfolio.png';
@@ -13,34 +14,6 @@ import calc from './images/unit_price_calc.png';
 import isara from './images/isara.png';
 import isara_png from './images/isara_practice.png';
 import aklog from './images/aklog.net.png';
-
-const EnDentalDescribe = () => {
-    return <>Dental Office web site</>;
-};
-
-const EnShareHouseDescribe = () => {
-    return <>Dental Office web site</>;
-};
-
-const EnUnitPriceCalcDescribe = () => {
-    return <>Unit price calculator</>;
-};
-
-const EnIsaraDescribe = () => {
-    return (
-        <>
-            iSara LP practice(<a href="https://isara.life/" target="_blank">original web site</a>)
-        </>
-    );
-};
-
-const EnBlogDescribe = () => {
-    return <>My blog</>;
-};
-
-const EnPortfolioDescribe = () => {
-    return <>My portfolio</>;
-};
 
 function Works() {
     return (
@@ -52,7 +25,7 @@ function Works() {
                     <p className="title">
                         <BrowserRouter>
                             <Routes>
-                                <Route path="en" element={<EnDentalDescribe />} />
+                                <Route path="en" element={<EnText.EnDentalDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">Next.js / SCSS / StaticForm / Docker</span></p>
@@ -62,7 +35,7 @@ function Works() {
                     <p className="title">
                         <BrowserRouter>
                             <Routes>
-                                <Route path="en" element={<EnShareHouseDescribe />} />
+                                <Route path="en" element={<EnText.EnShareHouseDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">HTML / SCSS / PHP / Laravel / PostgreSQL / Docker</span></p>
@@ -72,7 +45,7 @@ function Works() {
                     <p className="title">
                         <BrowserRouter>
                             <Routes>
-                                <Route path="en" element={<EnUnitPriceCalcDescribe />} />
+                                <Route path="en" element={<EnText.EnUnitPriceCalcDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">Vue.js / SCSS</span></p>
@@ -82,7 +55,7 @@ function Works() {
                     <p className="title">
                         <BrowserRouter>
                             <Routes>
-                                <Route path="en" element={<EnIsaraDescribe />} />
+                                <Route path="en" element={<EnText.EnIsaraDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">HTML / SCSS</span></p>
@@ -92,7 +65,7 @@ function Works() {
                     <p className="title">
                         <BrowserRouter>
                             <Routes>
-                                <Route path="en" element={<EnBlogDescribe />} />
+                                <Route path="en" element={<EnText.EnBlogDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">PHP / WordPress</span></p>
@@ -102,7 +75,7 @@ function Works() {
                     <p className="title">
                         <BrowserRouter>
                             <Routes>
-                                <Route path="en" element={<EnPortfolioDescribe />} />
+                                <Route path="en" element={<EnText.EnPortfolioDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">React.js / SCSS</span></p>
