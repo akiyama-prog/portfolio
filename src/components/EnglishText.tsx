@@ -31,3 +31,7 @@ export const EnPortfolioDescribe = () => {
 export const EnAboutMe = () => {
     return <>I work at real estate company in Tokyo as a software engineer from 2019. Support our employees about several system. I have worked extensively from front-end to back-end, database design, case definition, and so on.</>;
 };
+
+export const EnContact = () => {
+    return <>If you are interested in working with me,<br />please feel free to contact me and say hi!</>;
+};
