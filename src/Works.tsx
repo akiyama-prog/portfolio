@@ -7,6 +7,7 @@ import {
     Route
 } from "react-router-dom";
 import * as EnText from './components/EnglishText';
+import * as JpText from './components/JapaneseText';
 import tokyoshare from './images/tokyoshare.png';
 import dental from './images/minami-dental.png';
 import portfolio from './images/ak_portfolio.png';
@@ -26,6 +27,7 @@ function Works() {
                         <BrowserRouter>
                             <Routes>
                                 <Route path="en" element={<EnText.EnDentalDescribe />} />
+                                <Route path="jp" element={<JpText.JpDentalDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">Next.js / SCSS / StaticForm / Docker</span></p>
@@ -36,6 +38,7 @@ function Works() {
                         <BrowserRouter>
                             <Routes>
                                 <Route path="en" element={<EnText.EnShareHouseDescribe />} />
+                                <Route path="jp" element={<JpText.JpShareHouseDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">HTML / SCSS / PHP / Laravel / PostgreSQL / Docker</span></p>
@@ -46,6 +49,7 @@ function Works() {
                         <BrowserRouter>
                             <Routes>
                                 <Route path="en" element={<EnText.EnUnitPriceCalcDescribe />} />
+                                <Route path="jp" element={<JpText.JpUnitPriceCalcDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">Vue.js / SCSS</span></p>
@@ -56,6 +60,7 @@ function Works() {
                         <BrowserRouter>
                             <Routes>
                                 <Route path="en" element={<EnText.EnIsaraDescribe />} />
+                                <Route path="jp" element={<JpText.JpIsaraDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">HTML / SCSS</span></p>
@@ -66,6 +71,7 @@ function Works() {
                         <BrowserRouter>
                             <Routes>
                                 <Route path="en" element={<EnText.EnBlogDescribe />} />
+                                <Route path="jp" element={<JpText.JpBlogDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">PHP / WordPress</span></p>
@@ -76,6 +82,7 @@ function Works() {
                         <BrowserRouter>
                             <Routes>
                                 <Route path="en" element={<EnText.EnPortfolioDescribe />} />
+                                <Route path="jp" element={<JpText.JpPortfolioDescribe />} />
                             </Routes>
                         </BrowserRouter>
                         <br /><span className="skill-explaine">React.js / SCSS</span></p>

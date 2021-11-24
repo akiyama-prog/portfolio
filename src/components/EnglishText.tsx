@@ -5,7 +5,7 @@ export const EnDentalDescribe = () => {
 };
 
 export const EnShareHouseDescribe = () => {
-    return <>Dental Office web site</>;
+    return <>Share house seach service in Tokyo</>;
 };
 
 export const EnUnitPriceCalcDescribe = () => {
