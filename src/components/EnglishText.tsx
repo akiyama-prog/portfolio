@@ -27,3 +27,7 @@ export const EnBlogDescribe = () => {
 export const EnPortfolioDescribe = () => {
     return <>My portfolio</>;
 };
+
+export const EnAboutMe = () => {
+    return <>I work at real estate company in Tokyo as a software engineer from 2019. Support our employees about several system. I have worked extensively from front-end to back-end, database design, case definition, and so on.</>;
+};
