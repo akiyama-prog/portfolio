@@ -41,7 +41,7 @@ return (
             </div>
             <div className="item">
                 <img src={wp} alt="wordpress" />
-                <p className="skill-title">WordPress<br />★★★☆☆</p>
+                <p className="skill-title">WordPress<br />★★★★☆</p>
             </div>
         </div>
         <div className="back">
@@ -63,11 +63,11 @@ return (
             </div>
             <div className="item">
                 <img src={mysql} alt="mysql" />
-                <p className="skill-title">MySQL<br />★★☆☆☆</p>
+                <p className="skill-title">MySQL<br />★★★★☆</p>
             </div>
             <div className="item">
                 <img src={docker} alt="docker" />
-                <p className="skill-title">Docker<br />★★☆☆☆</p>
+                <p className="skill-title">Docker<br />★★★☆☆</p>
             </div>
         </div>
     </div>

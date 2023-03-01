@@ -32,17 +32,6 @@ function Works() {
                         <br /><span className="skill-explaine">Next.js / SCSS / StaticForm / Docker</span></p>
                 </div>
                 <div className="work-img">
-                    <a href="https://tokyo-share.herokuapp.com/" target="_blank"><img src={tokyoshare} alt="tokyoshare" /></a>
-                    <p className="title">
-                        <BrowserRouter>
-                            <Routes>
-                                <Route path="en" element={<EnText.EnShareHouseDescribe />} />
-                                <Route path="jp" element={<JpText.JpShareHouseDescribe />} />
-                            </Routes>
-                        </BrowserRouter>
-                        <br /><span className="skill-explaine">HTML / SCSS / PHP / Laravel / PostgreSQL / Docker</span></p>
-                </div>
-                <div className="work-img">
                     <a href="https://unit-price-calculator.netlify.app/" target="_blank"><img src={calc} alt="unit price calculator" /></a>
                     <p className="title">
                         <BrowserRouter>
